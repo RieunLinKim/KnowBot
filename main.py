@@ -5,7 +5,7 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-    print("We have logged in as {0.user}".format(client))
+    print('We have logged in as {0.user}'.format(client))
 
 @client.event 
 async def on_message(message):
@@ -13,4 +13,4 @@ async def on_message(message):
         return
     if message.content.startwith('$hello'):
         await message.channel.send('Hello!')
-client.run(os.getenv('TOKEN'))
+client.run("OTQ3MzE5ODg4NDI5NTkyNjU3.YhriZQ.daSvQe3ljYVMxWdQE2fibkQmPhA")
